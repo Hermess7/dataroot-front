@@ -1,6 +1,6 @@
 # second-stage
 commands:
 
-node install
-bower i 
-gulp
+node install,
+bower i, 
+gulp,
