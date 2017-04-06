@@ -5,14 +5,8 @@
 /*
 * Custom
 */
-@import "partials/app";
-
-#main {
-  width: 100px;
-  p, div {
-    color: #000;
-    a {
-      color:blue;
-    }
-  }
-}
+@import "base/index";
+@import "layout/index"; // точно незнаю ієрархію тут
+@import "modules/index";
+//@import "states/index";
+//@import "utilities/index";
