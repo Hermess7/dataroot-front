@@ -1,0 +1,14 @@
+.type-house {
+  display: flex;
+  &__elem {
+    color: $color-black;
+    margin-right: 36px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 2px solid $color-white;
+    &:hover  {
+        border-bottom: 2px solid $color-green;
+      }
+  }
+}
