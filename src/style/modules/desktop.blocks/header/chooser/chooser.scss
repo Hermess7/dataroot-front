@@ -1,0 +1,8 @@
+.chooser{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  &__button {
+    width: 230px;
+  }
+}

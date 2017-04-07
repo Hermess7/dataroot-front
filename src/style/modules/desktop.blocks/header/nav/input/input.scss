@@ -1,4 +1,21 @@
 .input {
   height: 40px;
   width: 236px;
+  background: url(../img/component/plus.png) no-repeat scroll 15px 13px;
+  padding-left: 45px;
+  background-color: $color-green-light;
+  color: $color-white;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $color-white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $color-white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $color-white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $color-white;
 }

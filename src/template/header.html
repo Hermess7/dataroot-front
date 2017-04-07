@@ -1,5 +1,5 @@
 <section class="header header__home">
-    <div class="wrap">
+    <div class="wrap header__wrap">
         <div class="nav">
             <div class="nav__left">
                 <a href="#" class="logo nav__logo"><img src="" class="logo__img" alt=""></a>
@@ -10,21 +10,30 @@
                 <a href="" class="nav__elem">Еще</a>
             </div>
             <div class="nav__right">
-                <input type="text" class="input nav__ad">
+                <input type="text" class="input nav__ad" placeholder="Разместить обявление">
                 <a href="" class="nav__login">Войти</a>
             </div>
         </div>
         <h1 class="header__text">Поиск недвижимости в Украине</h1>
-        <div class="chooser header__chooser">
+        <div class="chooser">
             <div class="city-chooser">
                 <p class="city-chooser__text">Выбирете город</p>
-                <div class="dropdown city-chooser__dropdown"></div>
+                <div class="dropdown city-chooser__dropdown">
+                    <a href="" class="dropdown__text">
+                        Киев
+                        <img src="" class="dropdown__img" alt="">
+                    </a>
+                </div>
             </div>
             <div class="room-chooser">
-                <p class="city-chooser__text">Кол-во комнат</p>
-                <div class="dropdown city-chooser__dropdown"></div>
+                <p class="room-chooser__text">Кол-во комнат</p>
+                <a href=""><div class="room-chooser__count room-chooser__count--choosen">1</div></a>
+                <a href=""><div class="room-chooser__count room-chooser__count--choosen">2</div></a>
+                <a href=""><div class="room-chooser__count">3</div></a>
+                <a href=""><div class="room-chooser__count">4</div></a>
+                <a href=""><div class="room-chooser__count">5+</div></a>
             </div>
-            <a href="#" class="button-secondary chooser__button"></a>
+            <a href="#" class="button-secondary chooser__button">Перейти к поиску</a>
         </div>
     </div>
 </section>
