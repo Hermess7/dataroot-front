@@ -1,0 +1,23 @@
+.room-chooser {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 290px;
+  &__text{
+    width: 100%;
+  }
+  &__count{
+    margin-right: 12px;
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $color-white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  &__count--choosen{
+    background-color: $color-white;
+    color: $color-black;
+  }
+}

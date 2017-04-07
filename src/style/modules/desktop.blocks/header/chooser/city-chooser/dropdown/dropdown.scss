@@ -1,0 +1,19 @@
+.dropdown {
+  width: 344px;
+  height: 40px;
+  border: 2px solid $color-grey;
+  background-color: $color-white;
+  color: $color-black;
+  &__text {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    align-items: center;
+    padding: 0px 15px;
+  }
+  &__img {
+    content:url("../img/component/shape.png");
+    width: 10px;
+    height: 5px;
+  }
+}

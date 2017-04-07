@@ -1,0 +1,11 @@
+.button-secondary {
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  color: $color-green;
+  background-color: $color-white;
+  border: 2px solid $color-green;
+  border-radius: 2px;
+  width: 100px;
+  height: 40px;
+}
