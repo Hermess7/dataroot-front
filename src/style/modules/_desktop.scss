@@ -1,3 +1,10 @@
 
 @import "common.blocks/button/button";    /* Базовые CSS-правила */
 @import "desktop.blocks/button/button";   /* Особенности desktop */
+
+@import "desktop.blocks/header/header";
+@import "desktop.blocks/header/nav/nav";
+@import "desktop.blocks/header/nav/logo/logo";
+@import "desktop.blocks/header/nav/input/input";
+
+

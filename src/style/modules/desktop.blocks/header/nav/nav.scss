@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  color: $font-color-white;
+  font-weight: 200;
+  &__logo {
+    margin-right: 45px;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  &__right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__elem {
+    margin-right: 43px;
+    padding-bottom: 7px;
+  }
+  &__more{
+    content:url("../img/more.png");
+    width: 20px;
+    height: 4px;
+    margin-left: 3px;
+    margin-right: 11px;
+    margin-bottom: 7px;
+  }
+  &__ad {
+    margin-top: -2px;
+    margin-right: 14px;
+  }
+  &__login {
+    margin-right: 8px;
+    padding-bottom: 2px;
+  }
+}
