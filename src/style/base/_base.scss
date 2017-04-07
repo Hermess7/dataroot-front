@@ -1,0 +1,15 @@
+@import "../../fonts/stylesheet";
+$font-color-white: #FFFFFF;
+$font-color-black: #000000;
+
+body {
+  max-width: 1200px;
+  font-family: open_sans, sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
