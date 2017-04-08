@@ -3,7 +3,7 @@
 @import "desktop.blocks/button/button";   /* Особенности desktop */
 @import "desktop.blocks/button/button-secondary";   /* Особенности desktop */
 
-
+/*header*/
 @import "desktop.blocks/header/header";
 @import "desktop.blocks/header/nav/nav";
 @import "desktop.blocks/header/nav/logo/logo";
@@ -13,6 +13,20 @@
 @import "desktop.blocks/header/chooser/city-chooser/dropdown/dropdown";
 @import "desktop.blocks/header/chooser/room-chooser/room-chooser";
 
-@import "desktop.blocks/footer/footer";
+/*metro*/
+@import "desktop.blocks/metro/metro";
+@import "desktop.blocks/metro/section-main-text/section-main-text";
+@import "desktop.blocks/metro/type-house/type-house";
+
+/*best-offer*/
+@import "desktop.blocks/best-offer/best-offer";
+@import "desktop.blocks/best-offer/section-main-text/section-main-text";
+@import "desktop.blocks/best-offer/slider/slider";
+@import "desktop.blocks/best-offer/section-additional/section-additional";
+
+/*last-offer*/
+@import "desktop.blocks/last-offer/last-offer";
+
+
 
 

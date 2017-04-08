@@ -16,4 +16,12 @@
     width: 10px;
     height: 5px;
   }
+  &--red-point{
+    background: url(../img/component/red-point.png) no-repeat scroll 16px 15px;
+    font-size: 12px;
+    padding-left: 19px;
+    letter-spacing: 0.25px;
+    width: 314px;
+    padding-right: 0px;
+  }
 }
