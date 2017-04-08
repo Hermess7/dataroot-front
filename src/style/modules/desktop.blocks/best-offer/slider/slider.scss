@@ -34,6 +34,7 @@
     content: url("../img/slider/star.png");
     width: 16px;
     height: 16px;
+    margin-right: 16px;
   }
   &__elem-detail {
     font-size: 12px;
@@ -43,12 +44,29 @@
     margin-top: 10px;
     letter-spacing: 0.3px;
   }
-  &__elem-location {
+  &__elem-location--red-point {
     background: url("../img/slider/red-point.png") no-repeat;
     display: flex;
     margin-top: 17px;
     font-size: 12px;
     padding-left: 18px;
     letter-spacing: 0.3px;
+    font-weight: 200;
+  }
+  &__elem-location--blue-point {
+    background: url("../img/slider/blue-point.png") no-repeat;
+    display: flex;
+    margin-top: 17px;
+    font-size: 12px;
+    padding-left: 18px;
+    letter-spacing: 0.3px;
+    font-weight: 200;
+  }
+  &__elem-location--no-point {
+    display: flex;
+    margin-top: 17px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    font-weight: 200;
   }
 }

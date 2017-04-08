@@ -1,0 +1,25 @@
+.last-offer {
+  height: 444px;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  &__home {
+    margin-top: 20px;
+  }
+  &__header {
+    margin-top: 23px;
+  }
+  &__type-house {
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  &__slider {
+    margin-top: 24px;
+  }
+  &__footer {
+    margin-top: 50px;
+  }
+
+}
