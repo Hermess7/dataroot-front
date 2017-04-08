@@ -1,0 +1,23 @@
+.listing {
+  &__home{
+    margin-top: 27px;
+  }
+  &__parameters {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__text {
+    color: $color-grey-dark;
+  }
+  &__chooser {
+    display: flex;
+  }
+  &__dropdown--m-size {
+    width: 115px;
+    margin-right: 30px;
+  }
+  &__dropdown--s-size {
+    width: 75px;
+    margin-right: 30px;
+  }
+}
