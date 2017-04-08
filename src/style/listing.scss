@@ -1,0 +1,17 @@
+
+@import "base/index";//нужно переделать
+/*подключаемые*/
+@import "modules/desktop.blocks/header/nav/nav";
+@import "modules/desktop.blocks/header/nav/logo/logo";
+@import "modules/desktop.blocks/header/nav/input/input";
+/*свои*/
+@import "modules/desktop.blocks/listing/base/base";//нужно переделать
+@import "modules/desktop.blocks/listing/base/wrap"; //нужно переделать
+/*header*/
+@import "modules/desktop.blocks/listing/header/header";
+/*info*/
+@import "modules/desktop.blocks/listing/info/search-tree/search-tree";
+@import "modules/desktop.blocks/listing/info/info";
+/*listing*/
+@import "modules/desktop.blocks/listing/listing/listing";
+@import "modules/desktop.blocks/listing/listing/dropdown/dropdown";

@@ -26,7 +26,7 @@ var path = {
     src: { //Пути откуда брать исходники
         html: 'src/*.html', //Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html
         js: 'src/js/main.js',//В стилях и скриптах нам понадобятся только main файлы
-        style: 'src/style/main.scss',
+        style: 'src/style/*.scss',
         img: 'src/img/**/*.*', //Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
         fonts: 'src/fonts/**/*.*'
     },
@@ -102,7 +102,7 @@ gulp.task('serv', function() {
     gulp.src('./build')
         .pipe(server({
             livereload: true,
-            defaultFile: 'index.html',
+            defaultFile: 'listing.html',
             directoryListing: false,
             open: false
         }));

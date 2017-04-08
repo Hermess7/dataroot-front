@@ -1,27 +1,27 @@
 .dropdown {
-  width: 344px;
   height: 40px;
   border: 2px solid $color-grey;
   background-color: $color-white;
   color: $color-black;
-  &__text {
-    display: flex;
-    justify-content: space-between;
-    height: inherit;
-    align-items: center;
+  &__select {
+    height: 36px;
     padding: 0px 15px;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+    appearance: none;
+    outline: none;
+    background: url("../img/component/shape.png") no-repeat 95% center;
   }
-  &__img {
-    content:url("../img/component/shape.png");
-    width: 10px;
-    height: 5px;
-  }
-  &--red-point{
-    background: url(../img/component/red-point.png) no-repeat scroll 16px 15px;
+  &--red-point {
+    padding-top: 5px;
+    background: url(../img/component/red-point.png) no-repeat 16px 15px, url("../img/component/shape.png") no-repeat 95% center;
     font-size: 12px;
-    padding-left: 19px;
+    padding-left: 35px;
     letter-spacing: 0.25px;
-    width: 314px;
     padding-right: 0px;
   }
 }
+
+
