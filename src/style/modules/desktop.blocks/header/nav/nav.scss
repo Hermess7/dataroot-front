@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   &__logo {
-    margin-right: 45px;
+    margin-right: 42px;
   }
   &__left {
     display: flex;
@@ -15,8 +15,15 @@
     align-items: center;
   }
   &__elem {
-    margin-right: 43px;
-    padding-bottom: 7px;
+    margin-right: 35px;
+    padding-bottom: 12px;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 2px solid $color-green;
+    &:hover  {
+      border-bottom: 2px solid $color-white;
+    }
   }
   &__more{
     content:url("../img/more.png");
