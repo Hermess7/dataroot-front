@@ -1,0 +1,54 @@
+.slider {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 17px;
+  &__elem {
+
+  }
+  &__elem-img {
+    background: url("../img/slider/room-image.jpg") no-repeat center center;
+    width: 202px;
+    height: 135px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__elem-settings {
+    margin-top: 11px;
+    content: url(../img/slider/settings-vertical.png);
+    width: 20px;
+    height: 36px;
+    margin-right: 8.5px;
+  }
+  &__elem-value {
+    display: flex;
+    margin-top: 24px;
+  }
+  &__elem-price {
+    font-size: 16px;
+    margin-right: 30px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+  &__elem-star {
+    content: url("../img/slider/star.png");
+    width: 16px;
+    height: 16px;
+  }
+  &__elem-detail {
+    font-size: 12px;
+    color: $color-grey-dark;
+    opacity: 1.00;
+    font-weight: 200;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+  }
+  &__elem-location {
+    background: url("../img/slider/red-point.png") no-repeat;
+    display: flex;
+    margin-top: 17px;
+    font-size: 12px;
+    padding-left: 18px;
+    letter-spacing: 0.3px;
+  }
+}

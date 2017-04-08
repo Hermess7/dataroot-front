@@ -2,11 +2,12 @@
   height: 295px;
   display: flex;
   justify-content: space-between;
+  background-color: $color-white;
   &__home {
-    margin-top: 16px;
+    margin-top: 20px;
   }
   &__content {
-    margin-top: 66px;
+    margin-top: 46px;
     margin-left: 40px;
   }
   &__type-house {
@@ -14,12 +15,13 @@
   }
   &__dropdown {
     margin-top: 20px;
+    margin-left: -2px;
   }
   &__button {
     margin-top: 32px;
   }
   &__img {
-    margin-top: 62px;
+    margin-top: 42px;
     margin-right: 35px;
     content:url("../img/illustration/metro.jpg") ;
     width: 411px;
