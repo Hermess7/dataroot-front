@@ -1,22 +1,14 @@
 .dropdown {
-  width: 344px;
   height: 40px;
   border: 2px solid $color-grey;
   background-color: $color-white;
   color: $color-black;
-  &__text {
-    display: flex;
-    justify-content: space-between;
-    height: inherit;
-    align-items: center;
-    padding: 0px 15px;
-  }
   &__select {
     height: 36px;
     padding: 0px 15px;
     border: 0;
     outline: none;
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
     appearance: none;
     outline: none;
