@@ -1,8 +1,8 @@
 .footer{
-  background-color: #f2f3f4;
+  background-color: #5a6871;
   width: 100%;
 
-  margin-top: 2926px;
+  /*margin-top: 2926px;*/
 
 
   &__container {
@@ -67,6 +67,7 @@
   align-items: center;
   list-style: none;
   margin-bottom: 11px;
+  opacity: 0.5;
 
   &__item {
     margin-left: 15px;
@@ -89,4 +90,5 @@
   padding: 12px 20px 10px 20px;
   margin-top: 4px;
   display: inline-block;
+  width: 162px;
 }

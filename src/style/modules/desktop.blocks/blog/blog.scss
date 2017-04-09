@@ -1,0 +1,103 @@
+.blog {
+  height: 518px;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  &__home {
+    margin-top: 20px;
+  }
+  &__header {
+    margin-top: 23px;
+  }
+  &__slider {
+    margin-top: -10px;
+  }
+}
+.blog__content_text{
+  width: 476px;
+  text-align: center;
+  font-size: 14px;
+}
+.main-text {
+  font-size: 24px;
+  color: $color-black;
+}
+.blog-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 2px solid $color-grey-dark-light;
+  font-size: 16px;
+  padding: 10px 0 13px;
+}
+.blog-slider {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 17px;
+  &__elem {
+
+  }
+  &__elem-img {
+    background: url("../img/blog.png") no-repeat center center;
+    width: 272px;
+    height: 182px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__elem-settings {
+    margin-top: 11px;
+    content: url(../img/slider/settings-vertical.png);
+    width: 20px;
+    height: 36px;
+    margin-right: 8.5px;
+  }
+  &__elem-value {
+    display: flex;
+    margin-top: 14px;
+  }
+  &__elem-text {
+    font-size: 16px;
+    margin-right: 30px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    max-width: 272px;
+  }
+  &__elem-detail {
+    font-size: 12px;
+    color: $color-grey-dark;
+    opacity: 1.00;
+    font-weight: 200;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+  }
+  &__elem-head--violet {
+    /*background: url("../img/slider/red-point.png") no-repeat;*/
+    color: #BA8FF7;
+    display: flex;
+    margin-top: 17px;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    font-weight: 200;
+  }
+
+  &__elem-head--green {
+    color: #30AE63;
+    display: flex;
+    margin-top: 17px;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    font-weight: 200;
+  }
+
+  &__elem-head--blue {
+    color: #2573D8;
+    display: flex;
+    margin-top: 17px;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    font-weight: 200;
+  }
+}
