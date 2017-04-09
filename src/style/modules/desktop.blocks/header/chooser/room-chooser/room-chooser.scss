@@ -20,4 +20,12 @@
     background-color: $color-white;
     color: $color-black;
   }
+  &__count--choosen-green{
+    background-color: $color-green;
+    color: $color-white;
+    border-color: $color-green;
+  }
+  &__count--border-grey{
+    border-color: $color-grey;
+  }
 }
