@@ -2,11 +2,18 @@
 $color-white: #FFFFFF;
 $color-black: #000000;
 $color-grey:  #DFE3E6;
-$color-grey-dark:  #8C9BA5;
 $color-grey-dark-light:  #D8D8D8;
+$color-grey-dark:  #8C9BA5;
+$color-grey-dark-1:  #9B9B9B;
+$color-grey-dark-2:  #4A4A4A;
 $color-green:  #30AE63;
 $color-green-light: #44B575;
+$color-green-light-2: #30AE63;
 $color-blue: #2573D8;
+$color-red-light: #FEEFEA;
+$color-red: #F5BEBB;
+
+
 
 
 body {
@@ -14,7 +21,7 @@ body {
   font-family: open_sans, sans-serif;
   font-size: 14px;
   margin: 0 auto;
-  background: #25b1b5;
+  background: #5a6871;
   font-weight: 200;
 }
 
