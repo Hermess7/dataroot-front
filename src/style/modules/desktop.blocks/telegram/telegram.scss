@@ -9,20 +9,90 @@
   }
   &__header {
     margin-top: 23px;
+    text-align: center;
   }
   &__slider {
     margin-top: -10px;
   }
   &__type-tel {
     margin-top: 30px;
+    margin-left: 225px;
+    margin-bottom: 40px;
+  }
+  &__main{
+    display: flex;
+    flex-direction: row;
+  }
+  &__block{
+    margin-top: 50px;
+    margin-left: 92px;
+    width: 435px;
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #FFFFFF;
+  }
+  &__point-block{
+    padding-top: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  &__logo{
     margin-left: 40px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    img{
+      margin-right: 20px;
+    }
+  }
+  &__name{
+    margin-top: 32px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  &__btn{
+    margin-left: 40px;
+    margin-bottom: 53px;
+    letter-spacing: 0.75px;
+    padding: 20px 55px;
+  }
+  &__point{
+    height: 17px;
+    width: 17px;
+    margin: 2px;
+    border-radius: 50%;
+    border: 2px solid $color-green ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__point:hover{
+    background-color: $color-green;
+  }
+  &__list{
+    list-style: decimal;
+    padding-left: 68px;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 32px;
+    width: 400px;
+    margin-right: 35px;
+    li{
+      padding-left: 9px;
+      padding-bottom: 13px;
+    }
   }
 }
 .telegram__content_text{
   width: 504px;
   text-align: center;
   font-size: 14px;
-  padding-top: 10px;
+  padding-top: 20px;
+  margin-left: 140px;
 }
 .main-text {
   font-size: 24px;
