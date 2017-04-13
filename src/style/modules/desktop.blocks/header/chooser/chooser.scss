@@ -1,8 +1,19 @@
-.chooser{
+.chooser {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   &__button {
     width: 230px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .chooser {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+    &__button {
+      margin-top: 32px;
+    }
   }
 }
