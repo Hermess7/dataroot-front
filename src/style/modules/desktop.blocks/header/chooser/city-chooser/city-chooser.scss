@@ -5,3 +5,12 @@
     margin-top: 11px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .city-chooser {
+    margin-right: 0px;
+    &__dropdown {
+      width: 312px;
+    }
+  }
+}

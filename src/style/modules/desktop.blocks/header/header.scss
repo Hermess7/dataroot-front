@@ -19,3 +19,18 @@
     margin-top: 15px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .header {
+    height: 480px;
+    &__text{
+      font-size: 24px;
+      width: 328px;
+      margin-top: 48px;
+    }
+    &__wrap {
+      padding: 24px 16px 27px;
+      justify-content: flex-start;
+    }
+  }
+}
