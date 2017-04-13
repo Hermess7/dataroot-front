@@ -1,10 +1,8 @@
 .slider {
   display: flex;
-  justify-content: space-around;
   width: 100%;
-  padding: 0 17px;
   &__elem {
-
+    margin-right: 12px;
   }
   &__elem-img {
     background: url("../img/slider/room-image.jpg") no-repeat center center;
@@ -44,29 +42,22 @@
     margin-top: 10px;
     letter-spacing: 0.3px;
   }
-  &__elem-location--red-point {
-    background: url("../img/slider/red-point.png") no-repeat;
+  &__elem-location {
     display: flex;
     margin-top: 17px;
     font-size: 12px;
     padding-left: 18px;
     letter-spacing: 0.3px;
     font-weight: 200;
-  }
-  &__elem-location--blue-point {
-    background: url("../img/slider/blue-point.png") no-repeat;
-    display: flex;
-    margin-top: 17px;
-    font-size: 12px;
-    padding-left: 18px;
-    letter-spacing: 0.3px;
-    font-weight: 200;
-  }
-  &__elem-location--no-point {
-    display: flex;
-    margin-top: 17px;
-    font-size: 12px;
-    letter-spacing: 0.3px;
-    font-weight: 200;
+    padding-bottom: 1px;
+    &--red-point {
+      background: url("../img/slider/red-point.png") no-repeat;
+    }
+    &--blue-point {
+      background: url("../img/slider/blue-point.png") no-repeat;
+    }
+    &--no-point {
+      padding-left: 0px;
+    }
   }
 }

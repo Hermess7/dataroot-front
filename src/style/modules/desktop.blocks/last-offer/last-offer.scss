@@ -5,11 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  padding-top: 23px;
   &__home {
     margin-top: 20px;
-  }
-  &__header {
-    margin-top: 23px;
   }
   &__type-house {
     margin-top: 30px;
@@ -17,9 +15,10 @@
   }
   &__slider {
     margin-top: 24px;
+    padding: 0 23px;
   }
   &__footer {
-    margin-top: 50px;
+    margin-top: 49px;
   }
 
 }
