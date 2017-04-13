@@ -3,12 +3,12 @@
   display: flex;
   justify-content: space-between;
   background-color: $color-white;
+  padding: 42px 35px 0px 40px;
   &__home {
     margin-top: 20px;
   }
   &__content {
-    margin-top: 46px;
-    margin-left: 40px;
+    margin-top: 4px;
   }
   &__type-house {
     margin-top: 25px
@@ -22,10 +22,26 @@
     margin-top: 32px;
   }
   &__img {
-    margin-top: 42px;
-    margin-right: 35px;
-    content:url("../img/illustration/metro.jpg") ;
+    content: url("../img/illustration/metro.jpg");
     width: 411px;
     height: 212px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .metro {
+    height: 484px;
+    flex-direction: column-reverse;
+    padding: 20px 12px;
+    &__img {
+      content: url("../img/mobile/metro/metro.jpg");
+      width: 336px;
+      height: 212px;
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
