@@ -68,7 +68,7 @@ gulp.task('js:build', function () {
 gulp.task('style:build', function () {
     gulp.src(path.src.style) //Выберем наш main.scss
         .pipe(sourcemaps.init()) //То же самое что и с js
-        .pipe(sass()) //Скомпилируем
+        .pipe(sass().on('error', sass.logError)) //Скомпилируем
         .pipe(prefixer()) //Добавим вендорные префиксы
         .pipe(sourcemaps.write())//Пропишем карты
         .pipe(gulp.dest(path.build.css)) //И в build
