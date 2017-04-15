@@ -8,4 +8,9 @@
   border-radius: 2px;
   width: 100px;
   height: 40px;
+  &:hover{
+    background-color: $color-green;
+    color: $color-white;
+    border: 2px solid $color-white;
+  }
 }
