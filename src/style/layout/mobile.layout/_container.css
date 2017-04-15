@@ -1,0 +1,5 @@
+.wrap {
+    margin: 0 auto;
+    height: inherit;
+    min-width: 360px;
+}
