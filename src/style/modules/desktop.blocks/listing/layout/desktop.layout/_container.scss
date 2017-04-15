@@ -3,8 +3,14 @@
 // ----------------------- //
 
 .wrap {
-  margin: 0 auto;
   max-width: 890px;
   height: inherit;
-  min-width: 835px;
+  margin-left: 20px;
+  min-width: 890px;
+}
+
+@media screen and (max-width: 1280px) {
+  .wrap {
+    margin: 0 auto;
+  }
 }

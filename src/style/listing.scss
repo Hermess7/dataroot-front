@@ -1,12 +1,18 @@
 
+
+
 @import "base/index";//нужно переделать
+
+@import "modules/common.blocks/button/button";    /* Базовые CSS-правила */
+@import "modules/desktop.blocks/button/button";   /* Особенности desktop */
+@import "modules/desktop.blocks/button/button-secondary";
 /*подключаемые*/
 @import "modules/desktop.blocks/header/nav/nav";
 @import "modules/desktop.blocks/header/nav/logo/logo";
 @import "modules/desktop.blocks/header/nav/input/input";
 /*свои*/
 @import "modules/desktop.blocks/listing/base/base";//нужно переделать
-@import "modules/desktop.blocks/listing/base/wrap"; //нужно переделать
+@import "modules/desktop.blocks/listing/layout/index"; //нужно переделать
 /*header*/
 @import "modules/desktop.blocks/listing/header/header";
 /*info*/
@@ -15,4 +21,6 @@
 /*listing*/
 @import "modules/desktop.blocks/listing/listing/listing";
 @import "modules/desktop.blocks/listing/listing/dropdown/dropdown";
+@import "modules/desktop.blocks/listing/listing/map/map";
 
+@import "modules/desktop.blocks/footer/footer";
