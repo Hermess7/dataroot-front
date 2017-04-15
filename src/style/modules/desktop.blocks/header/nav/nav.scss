@@ -1,16 +1,15 @@
 .nav {
   display: flex;
+  justify-content: space-between;
   &__logo {
     margin-right: 42px;
   }
   &__left {
     display: flex;
     align-items: center;
-    flex-grow: 1;
   }
   &__right {
     display: flex;
-    flex-grow: 1;
     justify-content: flex-end;
     align-items: center;
   }
@@ -22,6 +21,9 @@
     padding-right: 4px;
     border-bottom: 2px solid $color-green;
     &:hover  {
+      border-bottom: 2px solid $color-white;
+    }
+    &--white{
       border-bottom: 2px solid $color-white;
     }
   }
@@ -43,6 +45,44 @@
   }
   &__menu{
     display: none;
+  }
+  &__overlay {
+    color: $color-white;
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: rgba(90, 104, 114, 0.95);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  &__overlay-content {
+    position: relative;
+    width: 100%;
+    margin-top: 13px;
+    margin-left: 86px;
+    line-height: 2;
+  }
+
+  &__overlay-elem {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    color: $color-white;
+    display: block;
+    transition: 0.3s;
+    &:hover, :focus{
+      color: #f1f1f1;
+    }
+  }
+
+  &__close-btn {
+    position: absolute;
+    top: 16px;
+    right: 8px;
+    font-size: 30px;
   }
 }
 
@@ -69,48 +109,5 @@
     }
   }
 }
-.input--grey{
-  background-color: #70828f !important;
-}
-.nav__elem--white{
-  border-bottom: 2px solid $color-white;
-}
-.overlay {
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgba(90, 104, 114, 0.95);
-  //filter: blur(1px);
-  overflow-y: hidden;
-  transition: 0.5s;
-}
-.overlay-content {
-  position: relative;
-  width: 100%;
-  margin-top: 13px;
-  margin-left: 86px;
-  line-height: 2;
-}
 
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 14px;
-  color: #FFFFFF;
-  display: block;
-  transition: 0.3s;
-}
 
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 16px;
-  right: 8px;
-  font-size: 30px;
-}
