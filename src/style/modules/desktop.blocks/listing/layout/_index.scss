@@ -1,0 +1,4 @@
+@import "desktop.layout/container";
+@media screen and (max-width: 360px) {
+  @import "mobile.layout/container";
+}

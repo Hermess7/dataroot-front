@@ -1,0 +1,6 @@
+.wrap {
+    max-width: 360px;
+    height: inherit;
+    margin: 0 auto;
+    min-width: 360px;
+}

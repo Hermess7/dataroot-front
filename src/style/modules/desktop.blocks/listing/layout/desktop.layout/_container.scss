@@ -1,0 +1,16 @@
+// ----------------------- //
+// Container-------------- //
+// ----------------------- //
+
+.wrap {
+  max-width: 890px;
+  height: inherit;
+  margin-left: 20px;
+  min-width: 890px;
+}
+
+@media screen and (max-width: 1280px) {
+  .wrap {
+    margin: 0 auto;
+  }
+}
