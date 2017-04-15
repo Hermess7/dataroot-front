@@ -7,4 +7,7 @@
   height: 40px;
   border-radius: 2px;
   background-color: $color-green;
+  &:hover{
+    background-color: $color-green-light-4;
+  }
 }
