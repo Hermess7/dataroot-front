@@ -102,7 +102,7 @@ gulp.task('serv', function() {
     gulp.src('./build')
         .pipe(server({
             livereload: true,
-            defaultFile: 'listing.html',
+            defaultFile: 'index.html',
             directoryListing: false,
             open: false
         }));
