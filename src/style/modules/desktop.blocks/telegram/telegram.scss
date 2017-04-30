@@ -11,12 +11,17 @@
     margin-top: 23px;
     text-align: center;
   }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
   &__slider {
     margin-top: -10px;
   }
   &__type-tel {
     margin-top: 30px;
-    margin-left: 225px;
     margin-bottom: 40px;
   }
   &__main{
@@ -92,7 +97,6 @@
   text-align: center;
   font-size: 14px;
   padding-top: 20px;
-  margin-left: 140px;
 }
 .main-text {
   font-size: 24px;
@@ -106,7 +110,7 @@
     padding-bottom: 12px;
     padding-left: 4px;
     padding-right: 4px;
-    border-bottom: 2px solid #5a6871;
+    border-bottom: 2px solid #F2F3F4;
     &:hover {
       border-bottom: 2px solid $color-green;
     }
@@ -114,7 +118,7 @@
 }
 @media screen and (max-width: 360px){
   .telegram {
-    height: auto;
+    height: 700px;
     &__content_text{
       width: 320px;
       padding-top: 0;
