@@ -13,7 +13,8 @@
   ],
   "dependencies": {
     "normalize.css": "*",
-    "jquery": "2.*",
+    "jquery": "latest",
+    "jquery-mobile-bower": "latest",
     "owl.carousel": "^2.2.1"
   }
 }
