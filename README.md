@@ -1,6 +1,6 @@
 # second-stage
 commands:
 
-node install,
+npm install,
 bower i, 
 gulp,
